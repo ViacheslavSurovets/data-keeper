@@ -8,7 +8,7 @@ const { check, validationResult } = require("express-validator");
 
 const User = require("../models/User");
 
-// @route     GET api/auth
+// @route     GET api/auth 
 // @desc      Get logged in user
 // @access    Private
 router.get("/", auth, async (req, res) => {
